@@ -1,0 +1,30 @@
+{
+  "name": "bridget-jones-diary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-db": "node ./diary/db/setup.js",
+    "dev": "nodemon ./diary/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukeoakins/Bridget-Jones-diary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lukeoakins/Bridget-Jones-diary/issues"
+  },
+  "homepage": "https://github.com/Lukeoakins/Bridget-Jones-diary#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.1"
+  }
+}
